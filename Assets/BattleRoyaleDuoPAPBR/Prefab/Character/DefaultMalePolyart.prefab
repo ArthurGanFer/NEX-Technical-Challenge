@@ -1387,6 +1387,7 @@ GameObject:
   - component: {fileID: 8182674940294360502}
   - component: {fileID: 595188241718723143}
   - component: {fileID: 7941225178219866004}
+  - component: {fileID: 608340774054420028}
   m_Layer: 0
   m_Name: DefaultMalePolyart
   m_TagString: Untagged
@@ -1422,9 +1423,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762018173025169312}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ad4bb82bd843da1479ee67de1f1804c5, type: 3}
-  m_Controller: {fileID: 9100000, guid: f995ccec4eb03694d8b4fd525e26bccc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 493772cb073d7ce4daed082bc1e2e75a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1483,7 +1484,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &7941225178219866004
 MonoBehaviour:
@@ -1501,6 +1502,18 @@ MonoBehaviour:
   jumpForce: 10
   maxSpeed: 5
   playerCamera: {fileID: 0}
+--- !u!114 &608340774054420028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762018173025169312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361df46fbc81a0f4fafde5fe15f25023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1762018173090337492
 GameObject:
   m_ObjectHideFlags: 0
